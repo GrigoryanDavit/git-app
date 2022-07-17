@@ -1,0 +1,19 @@
+.repository-card {
+
+    border: 1px solid black;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+.repository-card:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.repository-card__boons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

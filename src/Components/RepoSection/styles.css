@@ -1,0 +1,23 @@
+.repositories-section {
+    overflow-y: auto;
+    height: 100%;
+}
+.repository-list-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 'item item item item';
+    padding: 50px;
+}
+
+
+
+.button-container {
+    height: 10vh;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    grid-area: area;
+}
